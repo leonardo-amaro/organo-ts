@@ -7,7 +7,7 @@ import './Formulario.css'
 
 interface FormularioProps {
     aoColaboradorCadastrado: (colaborador: IColaborador) => void
-    times: []
+    times: string[]
 }
 
 const Formulario = (props: FormularioProps) => {
